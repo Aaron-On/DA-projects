@@ -35,4 +35,28 @@ Dataset relate to user churn in telecom field, containing a dimension table with
 |Churn Reason|Reason for churn.|
 ## 4. Requirement
 Create overview dashboard for Managers to have a overall picture about churn situation of users, as well as churn reasons in each churn group, thereby suggesting a approrpriate solutions to improve this problems
-![image](https://github.com/Aaron-On/DA-projects/blob/main/image.png)  
+# II. Visualization by Power BI
+
+![image](https://github.com/user-attachments/assets/b85fcea6-a2cf-43de-9c47-1977a7d11d72)
+
+![image](https://github.com/user-attachments/assets/074581ad-23eb-45f6-9a52-e3aff0784347)
+
+![image](https://github.com/user-attachments/assets/99756856-982f-4ffe-a0aa-2b29f24429ec)
+
+# III. Overall and Insights
+### 1. Customer Overview:
+As can be seen from dashboard that
+- Churned customer constitued 1,769 customers compared with 6,687 of total, with the churn rate is nearly 27% which indicates a significant problem requiring possible solutions => the amount of both genders customers still be balanced.
+
+- Gender critiria: show the same proportion in both gender for both total and churned customers, while age group is distributed clearly between youngsters and the elder customers, within the over-30 aged group show the higher proportion than the aonther in both group of customers (over 80%) => ALthough the olders can be the most active customers, we must pay attention on this group to find out reason leading to the high churn rate.
+
+- Contract type: The monthly packages dominates others in the number of customers (51%), while the rate of monthly packages of churned users witnessed the highest proportion (87.9) => Have some issues in this packages that need to be focused on.
+
+### 2. Churn reason
+Top 3 churn reasons: the first reason that constitute highest amount is Competitor made better offer (303), followed by Competitor had better devices and Attitude of support person, are 297 and 203 respectively => Need to promotion campaigns, improve and innovate devices as well as propose training for staff in supporting or caring customers.
+### 3. Recommendation.
+From these insights analysed above:
+- Pay attention on older group to have a clear perspective about their churn reason, caring about post-service to ensure customer satisfaction
+- Propose several appropriate solutions to mitigate issue about packages type
+- Knowing and researching competitor, propose another promotion or offer campaign to encourage customer, collaborate with R&D team to innovate products, and training sales team to support customers carefully
+
