@@ -35,4 +35,4 @@ Dataset relate to user churn in telecom field, containing a dimension table with
 |Churn Reason|Reason for churn.|
 ## 4. Requirement
 Create overview dashboard for Managers to have a overall picture about churn situation of users, as well as churn reasons in each churn group, thereby suggesting a approrpriate solutions to improve this problems
-  
+![image](https://github.com/Aaron-On/DA-projects/blob/main/image.png)  
