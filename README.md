@@ -1,4 +1,6 @@
-# I. Introduction (Context)
+# I. Introduction 
+## Context
+
 SuperStore Company is a global retail company with a large customer database. On the occasion of Christmas and the New Year, the Marketing department plans to run marketing campaigns to express gratitude to customers who have supported the company over time. Additionally, they aim to identify potential customers and convert them into loyal customers.
 
 However, the Marketing department has not yet segmented the customers for this year due to the large dataset, which cannot be processed manually as in previous years. Therefore, they are seeking assistance from the Data Analysis department to solve the customer segmentation problem and deploy tailored marketing programs for each customer segment.
