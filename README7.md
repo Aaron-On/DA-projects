@@ -28,8 +28,7 @@ For each Analytics view that is enabled for BigQuery integration, a dataset is a
 |hits.product.productSKU|STRING|Product SKU.|
 |hits.product.v2ProductName|STRING|Product Name.|
 # II.Exploring data
-### Query 1:calculate total visit, pageview, transaction for Jan, Feb and March 2017 (order by month)
-[Link to BigQuery](https://console.cloud.google.com/bigquery?sq=951530404043:52f9a1722047432e9eb1326e4f4ae9a9)
+### Query 1: Calculate total visit, pageview, transaction for Jan, Feb and March 2017 (order by month)
 
 SQL code:
 
@@ -40,7 +39,6 @@ Query Results:
 ![image](https://github.com/user-attachments/assets/7d3ca160-6c41-4ba5-9b7c-9f5d0ec08a50)
 
 ### Query 2: Bounce rate per traffic source in July 2017 (Bounce_rate = num_bounce/total_visit) (order by total_visit DESC)
-[Link to BigQuery](https://console.cloud.google.com/bigquery?sq=951530404043:adbaa973924344b285867be87adac856)
 
 SQL code:
 
@@ -51,7 +49,6 @@ Query Results
 ![image](https://github.com/user-attachments/assets/c0b2cb91-c2b9-4a57-97ff-2b452f6b81f5)
 
 ### Query 3: Revenue by traffic source by week, by month in June 2017
-[Link to BigQuery](https://console.cloud.google.com/bigquery?sq=951530404043:e71d827c7f3c484d8028d8d143fff9f8)
 
 SQl code:
 
@@ -61,8 +58,7 @@ Query Results:
 
 ![image](https://github.com/user-attachments/assets/a8cc7175-7b2e-419c-a0ac-66aeba8a6f04)
 
-### Query 4:Average number of pageviews by purchaser type (purchasers vs non-purchasers) in June, July 2017.
-[Link to BigQuery](https://console.cloud.google.com/bigquery?sq=951530404043:4715262bcdba4a2bbe2a70e7e9b04ac3)
+### Query 4: Average number of pageviews by purchaser type (purchasers vs non-purchasers) in June, July 2017.
 
 SQL code:
 
@@ -72,8 +68,7 @@ Query Results:
 
 ![image](https://github.com/user-attachments/assets/218d2a67-0284-411c-b43a-a5d958d06ecd)
 
-### Query 5:Average number of transactions per user that made a purchase in July 2017.
-[Link to BigQuery](https://console.cloud.google.com/bigquery?sq=951530404043:d7eb9ef0c6794d37a7070b77f70fc185)
+### Query 5: Average number of transactions per user that made a purchase in July 2017.
 
 SQL code:
 
@@ -84,7 +79,6 @@ Query Results:
 ![image](https://github.com/user-attachments/assets/ebfb4b76-c626-407f-acbe-ff469171fb13)
 
 ### Query 6: Average amount of money spent per session. Only include purchaser data in July 2017.
-[Link to BigQuery](https://console.cloud.google.com/bigquery?sq=951530404043:67964e27824e4f1099f89b47f7265d62)
 
 SQL code:
 
@@ -96,7 +90,6 @@ Query Results:
 
 
 ### Query 7: Other products purchased by customers who purchased product "YouTube Men's Vintage Henley" in July 2017. Output should show product name and the quantity was ordered.
-[Link to BigQuery](https://console.cloud.google.com/bigquery?sq=951530404043:0983b4df9ee449e59eaab425597246d5)
 
 SQL code:
 
@@ -107,7 +100,6 @@ Query Results:
 ![image](https://github.com/user-attachments/assets/0cb1e9e6-85f4-4ffe-a999-9b4d34e6a040)
 
 ### Query 8: Calculate cohort map from product view to addtocart to purchase in Jan, Feb and March 2017. For example, 100% product view then 40% add_to_cart and 10% purchase. Add_to_cart_rate = number product  add to cart/number product view. Purchase_rate = number product purchase/number product view. The output should be calculated in product level.
-[Link to BigQuery](https://console.cloud.google.com/bigquery?sq=951530404043:1dc3594850744944a0f86a582c2d4b7c)
 
 SQL code:
 
@@ -117,7 +109,7 @@ Query Results:
 
 ![image](https://github.com/user-attachments/assets/a75988c9-db4c-4516-9f1e-49e79b592772)
 
-# 3. Outcome
+# III. Conclusion
 Knowing how to query on BigQuery platform, utilize sql in ecommerce project in order to have insights about company's performance.
 Optimize tasks to propose appropriate strategies in the future for business
 
